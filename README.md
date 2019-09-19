@@ -4,7 +4,7 @@ This is the idea paper for testing what we can see from screen. For example, web
 
 # Motivation
 
-(PhantomCSS)[https://github.com/HuddleEng/PhantomCSS] test web page's visuals using screenshot, comparing pixel by pixel. But it cannot test animations.
+[PhantomCSS](https://github.com/HuddleEng/PhantomCSS) test web page's visuals using screenshot, comparing pixel by pixel. But it cannot test animations.
 We can save all frames. Than developer can confirm the pixels in saved frame is good or bad by their eyes.
 
 After changing codes, run test and capture all frames.
@@ -21,7 +21,7 @@ But there is problem. How to make sure the frame is always the same over the tes
 
 # Test screen except animation effect
 
-It is easier to test web page which has no animation effect. Just compare screenshot and check pixels. There is already well made framework like (PhantomCSS)[https://github.com/HuddleEng/PhantomCSS].
+It is easier to test web page which has no animation effect. Just compare screenshot and check pixels. There is already well made framework like [PhantomCSS](https://github.com/HuddleEng/PhantomCSS).
 
 # Test screen including animation effect
 
